@@ -1,0 +1,6 @@
+<?php
+
+header('Location : ./build/index.html');
+
+
+?>
