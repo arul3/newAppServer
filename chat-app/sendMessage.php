@@ -18,7 +18,7 @@ $message = $user->message;
 
 $receiver_id =  $user->id;
 
-$sql = "INSERT INTO messages(message_id,sender_id,receiver_id,message,date,time,timestamp,status,sender_status,receiver_status) VALUE (null,$user_id,$receiver_id,'$message',CURDATE(),CURTIME(),NOW(),'unseen','unseen','unseen')";
+$sql = "INSERT INTO messages(message_id,sender_id,receiver_id,message,date,time,timestamp,status,sender_status,receiver_status) VALUES (null,$user_id,$receiver_id,'$message',CURDATE(),CURTIME(),NOW(),'unseen','unseen','unseen')";
 
 
 
