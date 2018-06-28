@@ -12,7 +12,7 @@ class database
 	{
 		
 	//$this->link = mysqli_connect("localhost", "root","","chatapp");
-		$this->link =  mysqli_connect("http://sql213.epizy.com", "epiz_20770907","DXDJXgSHpu","epiz_20770907_reactApp");;
+				$this->link =  mysqli_connect("sql2.freemysqlhosting.net", "sql2245028","kL2%yU7*","sql2245028");
 	if (!$this->link) 
 	{
     echo "Error: Unable to connect to MySQL.";
